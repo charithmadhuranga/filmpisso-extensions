@@ -1,4 +1,4 @@
-const mangayomiSources = [
+const filmpissoSources = [
   {
     name: "AniWorld",
     lang: "de",

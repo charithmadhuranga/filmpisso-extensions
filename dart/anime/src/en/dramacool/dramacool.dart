@@ -1,4 +1,4 @@
-import 'package:mangayomi/bridge_lib.dart';
+import 'package:filmpisso/bridge_lib.dart';
 import 'dart:convert';
 
 class DramaCool extends MProvider {

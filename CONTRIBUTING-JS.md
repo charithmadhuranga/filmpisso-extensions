@@ -4,7 +4,7 @@ This guide have some instructions and tips on how to create a new Mangayomi exte
 
 ## Prerequisites
 
-Before starting please have installed the recent desktop version of the mangayomi application preferably or if you want with a tablet too.
+Before starting please have installed the recent desktop version of the filmpisso application preferably or if you want with a tablet too.
 
 ### Writing your extension
 
@@ -30,7 +30,7 @@ Before starting please have installed the recent desktop version of the mangayom
   - Fecth result: where you will test the different implemented methods by having a result in the expected format
   - Console: which will show you the logs
 
-Once extension is ready you can relocate your code into `mangayomi-extension` project in a `src` or `multisrc` package and create a Pull Request.
+Once extension is ready you can relocate your code into `filmpisso-extension` project in a `src` or `multisrc` package and create a Pull Request.
 
 ### Source
 
@@ -112,9 +112,9 @@ that are used by the player.
 
 ## Example sources that can help you understand how to create your source
 
-- [Example](https://github.com/kodjodevf/mangayomi-extensions/blob/main/javascript/anime/src/de/aniworld.js)
+- [Example](https://github.com/kodjodevf/filmpisso-extensions/blob/main/javascript/anime/src/de/aniworld.js)
   of HTML parsing using HTML DOM selector.
-- [Example](https://github.com/kodjodevf/mangayomi-extensions/blob/main/javascript/anime/src/en/allanime.js)
+- [Example](https://github.com/kodjodevf/filmpisso-extensions/blob/main/javascript/anime/src/en/allanime.js)
   of Json API usage.
 
 ## Some functions already available and usable
@@ -186,7 +186,7 @@ console.log(document.selectFirst("td").text); // 1
 
 ```
 
-See [`dom_selector`](https://github.com/kodjodevf/mangayomi/blob/main/lib/eval/javascript/dom_selector.dart) to see available methods.
+See [`dom_selector`](https://github.com/kodjodevf/filmpisso/blob/main/lib/eval/javascript/dom_selector.dart) to see available methods.
 
 ### String utils
 

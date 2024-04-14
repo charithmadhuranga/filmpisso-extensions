@@ -1,4 +1,4 @@
-import 'package:mangayomi/bridge_lib.dart';
+import 'package:filmpisso/bridge_lib.dart';
 
 class AnimeToast extends MProvider {
   AnimeToast({required this.source});
