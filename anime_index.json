@@ -232,7 +232,7 @@
     "hasCloudflare": false,
     "sourceCodeUrl": "https://raw.githubusercontent.com/charithmadhuranga/filmpisso-extensions/main/dart/anime/src/en/aniwave/aniwave.dart",
     "apiUrl": "",
-    "version": "0.0.65",
+    "version": "0.0.7",
     "isManga": false,
     "isFullData": false,
     "appMinVerReq": "0.2.0",
