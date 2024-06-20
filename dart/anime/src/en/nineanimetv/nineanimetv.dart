@@ -244,7 +244,8 @@ class NineAnimeTv extends MProvider {
       }
       videoResJson = decryptAESCryptoJS(ciphertext, password);
     } else {
-      videoResJson = resServer;
+      videoResJson = json.encode(
+          (json.decode(resServer)["sources"] as List<Map<String, dynamic>>));
     }
 
     String masterUrl =
@@ -399,6 +400,7 @@ class NineAnimeTv extends MProvider {
         CheckBoxFilter("Winter", "4")
       ]),
       GroupFilter("YearFilter", "Year", [
+        CheckBoxFilter("2024", "2024"),
         CheckBoxFilter("2023", "2023"),
         CheckBoxFilter("2022", "2022"),
         CheckBoxFilter("2021", "2021"),

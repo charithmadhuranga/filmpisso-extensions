@@ -50,7 +50,7 @@ List<Source> _searchJsSources(Directory dir) {
           sourceList.addAll(_searchJsSources(entity));
         } else if (entity is File && entity.path.endsWith('.js')) {
           final RegExp regex = RegExp(
-              r'const\s+filmpissoSources\s*=\s*(\[.*?\]);',
+              r'const\s+mangayomiSources\s*=\s*(\[.*?\]);',
               dotAll: true);
           final defaultSource = Source();
           Match? match = regex.firstMatch(entity.readAsStringSync());
@@ -60,7 +60,7 @@ List<Source> _searchJsSources(Directory dir) {
                   ..sourceCodeLanguage = 1
                   ..appMinVerReq = defaultSource.appMinVerReq
                   ..sourceCodeUrl =
-                      "https://raw.githubusercontent.com/charithmadhuranga/filmpisso-extensions/$branchName/javascript/${e["pkgPath"] ?? e["pkgName"]}")
+                      "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/javascript/${e["pkgPath"] ?? e["pkgName"]}")
                 .toList());
           }
         }

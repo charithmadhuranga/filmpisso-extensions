@@ -12,7 +12,7 @@ class UHDMovies extends MProvider {
   bool get supportsLatest => false;
 
   @override
-  String get baseUrl => getPreferenceValue(source.id, "pref_domain");
+  String get baseUrl => getPreferenceValue(source.id, "pref_domain_new");
 
   @override
   Future<MPages> getPopular(int page) async {
@@ -126,13 +126,13 @@ class UHDMovies extends MProvider {
   List<dynamic> getSourcePreferences() {
     return [
       EditTextPreference(
-          key: "pref_domain",
+          key: "pref_domain_new",
           title: "Currently used domain",
           summary: "",
-          value: "https://uhdmovies.zip",
+          value: "https://uhdmovies.fans",
           dialogTitle: "Currently used domain",
           dialogMessage: "",
-          text: "https://uhdmovies.zip"),
+          text: "https://uhdmovies.fans"),
     ];
   }
 
