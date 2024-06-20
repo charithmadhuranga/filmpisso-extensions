@@ -5,9 +5,9 @@ Source _doujinzaSource = Source(
     name: "DoujinZa",
     baseUrl: "https://doujinza.com",
     lang: "th",
-    isNsfw:true,
+    isNsfw: true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/doujinza/icon.png",
-    dateFormat:"MMMM d, yyyy",
-    dateFormatLocale:"th"
-  );
+    iconUrl:
+        "https://raw.githubusercontent.com/charithmadhuranga/filmpisso-extensions/bbranchNamee/dart/manga/multisrc/madara/src/doujinza/icon.png",
+    dateFormat: "MMMM d, yyyy",
+    dateFormatLocale: "th");

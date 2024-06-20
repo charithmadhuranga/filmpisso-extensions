@@ -5,9 +5,9 @@ Source _sekaikomikSource = Source(
     name: "Sekaikomik",
     baseUrl: "https://sekaikomik.guru",
     lang: "id",
-    isNsfw:true,
+    isNsfw: true,
     typeSource: "mangareader",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/sekaikomik/icon.png",
-    dateFormat:"MMMM dd, yyyy",
-    dateFormatLocale:"id"
-  );
+    iconUrl:
+        "https://raw.githubusercontent.com/charithmadhuranga/filmpisso-extensions/$branchName/dart/manga/multisrc/mangareader/src/sekaikomik/icon.png",
+    dateFormat: "MMMM dd, yyyy",
+    dateFormatLocale: "id");

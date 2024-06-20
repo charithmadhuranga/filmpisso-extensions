@@ -5,9 +5,9 @@ Source _mangaisekaithaiSource = Source(
     name: "MangaIsekaiThai",
     baseUrl: "https://www.mangaisekaithai.com",
     lang: "th",
-    isNsfw:true,
+    isNsfw: true,
     typeSource: "madara",
-    iconUrl: "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/bbranchNamee/dart/manga/multisrc/madara/src/mangaisekaithai/icon.png",
-    dateFormat:"d MMMM yyyy",
-    dateFormatLocale:"th"
-  );
+    iconUrl:
+        "https://raw.githubusercontent.com/charithmadhuranga/filmpisso-extensions/bbranchNamee/dart/manga/multisrc/madara/src/mangaisekaithai/icon.png",
+    dateFormat: "d MMMM yyyy",
+    dateFormatLocale: "th");
