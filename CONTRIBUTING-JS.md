@@ -1,6 +1,6 @@
 # Contributing
 
-This guide have some instructions and tips on how to create a new Mangayomi extension on js extension.
+This guide have some instructions and tips on how to create a new filmpisso extension on js extension.
 
 ## Prerequisites
 
@@ -36,7 +36,7 @@ Once extension is ready you can relocate your code into `filmpisso-extension` pr
 
 | Field              | Description                                                                                                                                                     |
 | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `name`             | Name displayed in the "Sources" tab in Mangayomi.                                                                                                               |
+| `name`             | Name displayed in the "Sources" tab in filmpisso.                                                                                                               |
 | `baseUrl`          | Base URL of the source without any trailing slashes.                                                                                                            |
 | `apiUrl`           | (Optional, defaults is empty) Api URL of the source with trailing slashes.                                                                                      |
 | `lang`             | An ISO 639-1 compliant language code (two letters in lower case in most cases, but can also include the country/dialect part by using a simple dash character). |

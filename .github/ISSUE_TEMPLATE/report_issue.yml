@@ -1,5 +1,5 @@
 name: 🐞 Issue report
-description: Report a source issue in Mangayomi
+description: Report a source issue in filmpisso
 labels: [Bug]
 body:
 
@@ -59,9 +59,9 @@ body:
 - type: input
   id: filmpisso-version
   attributes:
-    label: Mangayomi version
+    label: filmpisso version
     description: |
-      You can find your Mangayomi version in **More → About**.
+      You can find your filmpisso version in **More → About**.
     placeholder: |
       Example: "0.0.67"
   validations:
