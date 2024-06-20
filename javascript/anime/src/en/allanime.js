@@ -1,11 +1,11 @@
-const filmpissoSources = [
+const mangayomiSources = [
   {
     name: "AllAnime",
     lang: "en",
     baseUrl: "https://allanime.to",
     apiUrl: "https://api.allanime.day/api",
     iconUrl:
-      "https://raw.githubusercontent.com/charithmadhuranga/filmpisso-extensions/main/javascript/icon/en.allanime.png",
+      "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/main/javascript/icon/en.allanime.png",
     typeSource: "single",
     isManga: false,
     isNsfw: false,
