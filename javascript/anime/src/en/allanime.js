@@ -1,4 +1,4 @@
-const mangayomiSources = [
+const filmpissoSources = [
   {
     name: "AllAnime",
     lang: "en",

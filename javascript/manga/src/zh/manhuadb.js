@@ -1,4 +1,4 @@
-const mangayomiSources = [
+const filmpissoSources = [
   {
     name: "漫画DB",
     lang: "zh",

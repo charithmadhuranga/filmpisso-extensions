@@ -50,7 +50,7 @@ List<Source> _searchJsSources(Directory dir) {
           sourceList.addAll(_searchJsSources(entity));
         } else if (entity is File && entity.path.endsWith('.js')) {
           final RegExp regex = RegExp(
-              r'const\s+mangayomiSources\s*=\s*(\[.*?\]);',
+              r'const\s+filmpissoSources\s*=\s*(\[.*?\]);',
               dotAll: true);
           final defaultSource = Source();
           Match? match = regex.firstMatch(entity.readAsStringSync());
