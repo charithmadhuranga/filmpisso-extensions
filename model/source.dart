@@ -64,8 +64,8 @@ class Source {
     hasCloudflare = json['hasCloudflare'] ?? false;
     iconUrl = json['iconUrl'] ?? "";
     id = (json['id'] ?? sourceCodeLang == 0
-            ? 'filmpisso-"${json['lang'] ?? ""}"."${json['name'] ?? ""}"'
-            : 'filmpisso-js-"${json['lang'] ?? ""}"."${json['name'] ?? ""}"')
+            ? 'mangayomi-"${json['lang'] ?? ""}"."${json['name'] ?? ""}"'
+            : 'mangayomi-js-"${json['lang'] ?? ""}"."${json['name'] ?? ""}"')
         .hashCode;
     isFullData = json['isFullData'] ?? false;
     isManga = json['isManga'] ?? false;
@@ -82,7 +82,7 @@ class Source {
   Map<String, dynamic> toJson() {
     return {
       'name': name,
-      'id': id ?? 'filmpisso-$lang.$name'.hashCode,
+      'id': id ?? 'mangayomi-$lang.$name'.hashCode,
       'baseUrl': baseUrl,
       "lang": lang,
       "typeSource": typeSource,
